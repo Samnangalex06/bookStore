@@ -1,0 +1,49 @@
+header{
+    background-color: beige;
+}
+.top-bar{
+    margin: 10px;;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.BookShop{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 500px 500px;
+    align-items: center;
+    gap: 20px;
+}
+h1{
+    Color: Black;
+    font-size: 40px;
+    margin-left: 150px;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+}
+.searchBar input{
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;  
+}
+.searchBar button{
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.navBar{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.Cart{
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+}
